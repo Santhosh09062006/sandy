@@ -1,5 +1,11 @@
 import streamlit as st
 
+port=st.button("portfolio")
+if port:
+   st.title("PORTFOLIO")
+   st.subheader("technical skills : python,html and cs")
+   st.subheader("electronic communication concepts:semiconductor circuits")
+   
 st.title("binary search number guessing game")
 
 st.write("think of a number between 1 and 100, and i will try to guess it !")
