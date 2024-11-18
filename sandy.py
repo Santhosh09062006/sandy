@@ -13,7 +13,7 @@ st.write("you will tell me if my guess is too high,too low or correct.")
  
  if 'low'not in st.session_state:
     st.session_state.low=1
-    st.ession_state.high=100
+    st.session_state.high=100
     st.session_state.guess=(st.session_state.low+st.session_state.high)//2
     st.session_state.attempts=0
 
