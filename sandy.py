@@ -17,7 +17,7 @@ st.write("you will tell me if my guess is too high,too low or correct.")
     st.session_state.guess=(st.session_state.low+st.session_state.high)//2
     st.session_state.attempts=0
 
-st.write(f"my current gues is:**{st.session_state}**")
+st.write(f"my current guess is:**{st.session_state}**")
 
 col1,col2,col3=st.columns(3)
 
