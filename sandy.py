@@ -47,6 +47,6 @@ else:
 if st.button("reset game"):
     st.session_state.low=1
     st.session_state.high=100
-    st.session_state.guess=(st.session_stae.low+st.session_state.high)//2
+    st.session_state.guess=(st.session_state.low+st.session_state.high)//2
     st.session_state.attempts=0
     st.success("game has been reset!start thinking of a new number.")
