@@ -28,7 +28,7 @@ with col1:
 
 with col2:
     if st.button("too high"):
-        st.session_state=st.session_state.guess-1
+        st.session_state.high=st.session_state.guess-1
         st.session_state.attempts+=1
 
 with col3:
