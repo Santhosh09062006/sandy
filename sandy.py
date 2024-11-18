@@ -2,7 +2,7 @@ import streamlit as st
 
 port=st.button("portfolio")
 if port:
-   st.title("PORTFOLIO for Nithin kj")
+   st.title("PORTFOLIO for Santhosh kumar G")
    st.subheader("technical skills : python,html and cs")
    st.subheader("electronic communication concepts:semiconductor circuits")
 
