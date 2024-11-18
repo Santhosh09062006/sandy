@@ -11,7 +11,7 @@ st.title("binary search number guessing game")
 st.write("think of a number between 1 and 100, and i will try to guess it !")
 st.write("you will tell me if my guess is too high,too low or correct.")
  
- if 'low'not st.session_state:
+ if 'low'not in st.session_state:
     st.session_state.low=1
     st.ession_state.high=100
     st.session_state.guess=(st.session_state.low+st.session_state.high)//2
@@ -23,7 +23,8 @@ col1,col2,col3=st.columns(3)
 
 with col1:
     if st.button("too low"):
-        st.session_state.low=st.session_state.attempts+=
+        st.session_state.low=st.session_state.guess+1
+st.session_state.attempts+=1
 
 with col2:
     if st.button("too high"):
